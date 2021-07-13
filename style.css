@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(192, 192, 192, 0.041);
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  /* flex-grow: 1; */
+}
+
+/* ==========IMAGE SLIDESHOW CSS================ */
+.images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 1.25rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 20px;
+  transform: translateY(-50%);
+  color: rgba(128, 128, 128, 0.678);
+  border: 0;
+}
+
+#right {
+  position: absolute;
+  left: calc(100% - 80px);
+  transform: translateY(-50%);
+}
+
+.main-image {
+  width: 38rem;
+  height: 35rem;
+  overflow: hidden;
+  position: relative;
+}
+.main-image img {
+  position: absolute;
+  top: -20%;
+  left: -0%;
+
+  width: 70rem;
+}
+
+.img-tiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img-tile {
+  width: 6.5rem;
+  overflow: hidden;
+  margin: 1rem 0;
+  /* border-radius: 50%; */
+}
+
+.img-tile img {
+  width: 10rem;
+}
+
+/* ==============PRODUCT INFORMATION CSS==================== */
+
+.info-container {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+h2.title-info {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+}
+
+h4.maker-info {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+p.description-info {
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 60%;
+}
+
+.review-info {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 255, 136);
+}
+
+.review-info > p {
+  font-family: 'Courier New', Courier, monospace;
+  color: gray;
+}
+
+.review-info span {
+  color: rgb(0, 255, 136);
+  margin-right: 5px;
+}
+
+a.submit-review {
+  color: grey;
+}
+
+.price-info {
+  margin: 2rem 0;
+  font-size: 3.5rem;
+}
+
+.shipping-info {
+  color: grey;
+}
+
+.shipping-info > i {
+  margin-right: 5px;
+}
+
+.button {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  background-color: black;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: white;
+  border: 5px solid black;
+  font-weight: 900;
+}
+
+.button.outline {
+  background-color: #fff;
+  color: black;
+}
