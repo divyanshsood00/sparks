@@ -1,73 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />    
-    <title>Intern task</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <title>Sparks task</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Main container -->
-    <div class="container">
-      <!-- Container for all images -->
-      <main class='images-container'>
-        <div class="slideshow">
-          <div class="main-image">
-            <img src="https://miro.medium.com/max/12000/1*aBlOg77JTu3vhT9JUAJmnA.jpeg" alt="Sofa">
-            <button class='slider-arrow'id="left"><i class="fas fa-arrow-left"></i></button>
-            <button class='slider-arrow' id="right"><i class="fas fa-arrow-right"></i></button>
-            
+  <!-- Main container -->
+  <div class="container">
+    <!-- Container for all images -->
+    <main class='images-container'>
+      <div class="slideshow">
+        <div class="main-image">
+          <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Sofa">
+          <button class='slider-arrow' id="left"><i class="fas fa-arrow-left"></i></button>
+          <button class='slider-arrow' id="right"><i class="fas fa-arrow-right"></i></button>
+          
+        </div>
+        <div class="img-tiles">
+          <div class="img-tile">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Sofa">
           </div>
-          <div class="img-tiles">
-            <div class="img-tile"><img src="https://miro.medium.com/max/12000/1*aBlOg77JTu3vhT9JUAJmnA.jpeg" alt="Sofa"></div>
-            <div class="img-tile"><img src="https://miro.medium.com/max/12000/1*aBlOg77JTu3vhT9JUAJmnA.jpeg" alt="Sofa"></div>
-            <div class="img-tile"><img src="https://miro.medium.com/max/12000/1*aBlOg77JTu3vhT9JUAJmnA.jpeg" alt="Sofa"></div>
-            <div class="img-tile"><img src="https://miro.medium.com/max/12000/1*aBlOg77JTu3vhT9JUAJmnA.jpeg" alt="Sofa"></div>
-            <div class="img-tile"><img src="https://miro.medium.com/max/12000/1*aBlOg77JTu3vhT9JUAJmnA.jpeg" alt="Sofa"></div>
+          <div class="img-tile"><img src="https://images.unsplash.com/photo-1571008592377-e362723e8998?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNoYXJpdHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sofa">
+          </div>
+          <div class="img-tile"><img src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hhcml0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sofa">
+          </div>
+          <div class="img-tile"><img src="https://images.unsplash.com/photo-1571008592377-e362723e8998?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNoYXJpdHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sofa">
+          </div>
+          <div class="img-tile"><img src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hhcml0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sofa">
+          </div>
 
+        </div>
+      </div>
+    </main>
+
+    <!-- For all the info price,etc -->
+    <div class="info-container">
+      <div class="all-info">
+        <h2 class="title-info">One Life</h2>
+        <h4 class='maker-info'>The change starts with you.<br /> by Mahatma Gandhi</h4>
+        <p class="description-info">Give underprivilaged people the strength to make a dent in the universe, this is how the world works. Help as much as you can nothing more nothing less. </p>
+        <div class="review-info">
+          <div class="stars-info">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p><span class='review'>(5.0)</span>review based on 7.8 Billion People</p>
+          <a href="#" class="submit-review">Already Reviewed</a>
+        </div>
+        <div class="price-info">
+          $5
+        </div>
+        <!-- Add fas-times logo here -->
+        <p class="shipping-info">
+          <i class="fas fa-clock"></i>Shipped as happiness in 1 moment
+        </p>
+        <div class="order-buttons-info">
+          <a href='https://rzp.io/l/XWu2efXXds'class="button dark">DONATE FROM HEART</a>
+          <a href = 'https://rzp.io/l/XWu2efXXds'class="button outline">DONATION WISHLIST</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer info -->
+    <footer>
+      <div class="foooter">
+        <div class="payment">
+          <img src="https://img.icons8.com/dotty/50/000000/wallet-app.png" />
+          <div class="content">
+            <div class="heading">
+              <h3>Direct Payment</h3>
+            </div>
+            <p>Don't worry, your money is directly received by needy.</p>
           </div>
         </div>
-      </main>
-        
-        <!-- For all the info price,etc -->
-        <div class="info-container">
-          <div class="all-info">
-            <h2 class="title-info">Upholstered Sofa</h2>
-            <h4 class='maker-info'>Kyara Upholstered Standard Bed<br/> by Zipcode Design</h4>
-            <p class="description-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt blanditiis eius optio ut consequuntur eaque libero asperiores nihil sequi enim.</p>
-            <div class="review-info">
-              <div class="stars-info">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <p><span class='review'>(5.0)</span>review based on 250</p>
-              <a href="#" class="submit-review">Submit Review</a>
+
+
+        <div class="payment">
+          <img src="https://img.icons8.com/ios/50/000000/truck.png" />
+          <div class="content">
+            <div class="heading">
+              <h3>Fast and Free Satisfaction</h3>
             </div>
-            <div class="price-info">
-              $567
-            </div>
-            <!-- Add fas-times logo here -->
-            <p class="shipping-info">
-              <i class="fas fa-clock"></i>Dispatched in 7 working days
-            </p>
-            <div class="order-buttons-info">
-              <button class="button dark">ADD TO CART</button>
-              <button class="button outline">ADD TO WISHLIST</button>
-            </div>
+            <p>Usually Amazon charges, but we are different</p>
           </div>
         </div>
-      
-        <!-- footer info -->
-      <footer>
 
-      </footer>
-    </div> 
 
-    <script src='script.js'></script>
+        <div class="payment">
+          <img src="https://img.icons8.com/pastel-glyph/50/000000/box--v2.png" />
+          <div class="content">
+            <div class="heading">
+              <h3>Return Policy</h3>
+            </div>
+            <p>No hassel. No return policy.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src='script.js'></script>
 </body>
+
 </html>
